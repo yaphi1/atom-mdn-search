@@ -1,0 +1,29 @@
+{
+  "name": "mdn-search",
+  "main": "./lib/mdn-search",
+  "version": "0.0.0",
+  "description": "Atom MDN Search is a package that lets you search MDN from your editor",
+  "author": {
+    "name": "Yaphi Berhanu",
+    "github": "https://github.com/yaphi1",
+    "twitter": "@yaphi1"
+  },
+  "keywords": [
+    "mdn",
+    "doc",
+    "search",
+    "Mozilla"
+  ],
+  "activationCommands": {
+    "atom-workspace": "mdn-search:search"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaphi1/atom-mdn-search"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
